@@ -1,0 +1,145 @@
+
+
+
+body {
+    background-color: lightpink;
+}
+/* Header (Navbar + Hero) */
+.header {
+    background: linear-gradient(to right, #fceff9, #f8d6ec);
+    padding: 2rem;
+    padding-top: 0;
+  }
+  
+  /* Navbar Inside Header */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: #d63384;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .nav-links .login {
+    color: #d63384;
+  }
+  
+  .nav-links .signup {
+    padding: 6px 12px;
+    background-color: #d63384;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+  
+  /* Hero Content */
+  .hero-content {
+    text-align: center;
+    padding: 3rem 1rem 4rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #d63384;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #d63384;
+    color: white;
+  }
+  
+  .primary:hover {
+    background-color: #be2d73;
+  }
+  
+  .secondary {
+    border: 2px solid #d63384;
+    color: #d63384;
+  }
+  
+  .secondary:hover {
+    background-color: #f8d6ec;
+  }
+  
+.prouds-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.prouds-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.prouds-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.proud-item {
+    flex: 0 0 auto;
+    width: 150px;
+    text-align: center;
+}
+
+.proud-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.proud-item p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.prouds-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.prouds-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.prouds-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}

@@ -1,0 +1,67 @@
+<header class="header">
+    <div class="navbar">
+      <div class="logo">FemVentures</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Marketplace</a>
+        <a href="about.html">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#" class="login">Login</a>
+        <a href="signup.html" class="signup">Sign Up</a>
+      </nav>
+    </div>
+  
+    <div class="hero-content">
+      <h1>Empowering Women Entrepreneurs with Equality</h1>
+      <p>Join the marketplace that uplifts and supports women-led businesses.</p>
+      <div class="buttons">
+        <a href="seller-dashboard.html" class="btn primary">Join as a Seller</a> 
+        <a href="#" class="btn secondary">Explore Marketplace</a>
+      </div>
+    </div>
+  </header>
+  <link rel="stylesheet" href="style.css">
+<script>
+    document.querySelector('.login').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'loginpage.html';
+    });
+</script>
+<script>
+    document.querySelector('.nav-links a:nth-child(2)').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'marketplace.html';
+    });
+</script></script>
+<section class="prouds-section">
+    <h2>TOP SELLING PRODUCTS</h2>
+    <div class="prouds-container">
+        <div class="proud-item">
+            <img src="seller1.jpg" alt="Seller 1">
+            <p>Handmade Jewelry by Sarah</p>
+        </div>
+        <div class="proud-item">
+            <img src="seller2.jpg" alt="Seller 2">
+            <p>Eco-Friendly Bags by Emma</p>
+        </div>
+        <div class="proud-item">
+            <img src="seller3.jpg" alt="Seller 3">
+            <p>Artisanal Candles by Mia</p>
+        </div>
+        <div class="proud-item">
+            <img src="seller4.jpg" alt="Seller 4">
+            <p>Organic Skincare by Olivia</p>
+        </div>
+        <div class="proud-item">
+            <img src="seller5.jpg" alt="Seller 5">
+            <p>Custom Stationery by Ava</p>
+        </div>
+    </div>
+</section>
+<script>
+    document.querySelector('.nav-links a:first-child').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'publicpage.html';
+    });
+

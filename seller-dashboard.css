@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+  }
+  
+  .seller-header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #fceff9, #f8d6ec);
+    color: #d63384;
+  }
+  
+  .seller-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .seller-header p {
+    color: #555;
+  }
+  
+  .dashboard-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .stat {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat p {
+    font-size: 1.5rem;
+    color: #d63384;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .action-btn {
+    background-color: #d63384;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .action-btn:hover {
+    background-color: #be2d73;
+  }
+  
